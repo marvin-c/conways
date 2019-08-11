@@ -31,6 +31,5 @@ test('getNeighbours in middle', () => {
   }
   const neighbours = getNeighbours(1, 1, board)
   const actual = neighbours.reduce((sum, val) => (sum + val), 0)
-
   expect(actual).toBe(total)
 })
